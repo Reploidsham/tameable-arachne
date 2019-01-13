@@ -1,0 +1,14 @@
+[
+    {
+        "modid": "tameable_arachne",
+        "name": "TameableArachneMod",
+        "description": "Tame the Arachne.",
+        "version": "1.12.2_1.1.6",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["Lilac"],
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
