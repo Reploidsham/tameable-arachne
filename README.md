@@ -24,6 +24,7 @@ Their HP recovers overtime, so keep an eye out and enjoy.
 
 # Recipes:
 ![Recipe](https://i.imgur.com/SDmhN8n.png)
+
 This is it. This is the magic candy. Using it on a chicken or spider nearby instantly turns them into their respective monster (You have a chance of getting a small or medium arachne from spiders), and giving them more candy changes their colour.
 
 Credits to Lilac for originally writing the code and making it free to modify and redistribute for 1.7.10.
