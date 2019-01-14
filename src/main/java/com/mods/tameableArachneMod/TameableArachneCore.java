@@ -26,8 +26,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class TameableArachneCore
 {
     public static final String MODID = "tameable_arachne";
-    public static final String MODNAME = "Tameable Arachne";
-    public static final String VERSION = "1.01";
+    public static final String MODNAME = "TameableArachneMod";
+    public static final String VERSION = "1.1.6";
 
     public static boolean ArachneSpawnFlg = true;
     public static int ArachneEntityId = 180;
