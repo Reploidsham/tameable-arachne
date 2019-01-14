@@ -18,6 +18,7 @@ Upon finding them, you can attempt to tame these beautiful creatures, adding pot
 Giving them Diamonds increases their attack.
 Giving them Gold increases their HP
 Giving them iron increases their defense
+Giving them a bucket makes them fill it with milk, so they're like eight legged cows, too! Economical!
 Their HP recovers overtime, so keep an eye out and enjoy.
 
 
@@ -26,6 +27,11 @@ Their HP recovers overtime, so keep an eye out and enjoy.
 ![Recipe](https://i.imgur.com/SDmhN8n.png)
 
 This is it. This is the magic candy. Using it on a chicken or spider nearby instantly turns them into their respective monster (You have a chance of getting a small or medium arachne from spiders), and giving them more candy changes their colour.
+![Eggs](https://i.imgur.com/JqZoIWP.png)
+
+If you enabled it, here are the recipes to make each egg. However, these are disabled by default in the configuration file, and are hardly necessary normally, unless you're using modified spawns.
+
+
 
 Credits to Lilac for originally writing the code and making it free to modify and redistribute for 1.7.10.
 
