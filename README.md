@@ -33,11 +33,17 @@ If you enabled it, here are the recipes to make each egg. However, these are dis
 
 
 
-Credits to Lilac for originally writing the code and making it free to modify and redistribute for 1.7.10.
+Credits to Lilac from minecraftuserJP for originally writing the code and making it free to modify and redistribute for 1.7.10.
+
+Credit to 暇人@エセクラフター  for additional textures.
 
 Credits to McHorse for refactoring the code for 1.12.2
 
-Credits to Reploidsham for making the initial push to have this carried over
+Credits to Reploidsham for maintaining and starting the modernisation.
+
+Fork, clone, and modify at will. Credit or none, just be nice to spiders.
+
+
 
 # Compiling:
 In order to compile from source using windows
