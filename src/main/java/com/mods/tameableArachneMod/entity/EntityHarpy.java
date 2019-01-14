@@ -60,7 +60,7 @@ public class EntityHarpy extends EntityArachne
     {
         super.entityInit();
 
-        this.dataManager.set(EntityArachne.TYPE, this.rand.nextInt(7));
+        this.dataManager.set(EntityArachne.TYPE, this.rand.nextInt(14));
     }
 
     @Override
@@ -68,7 +68,7 @@ public class EntityHarpy extends EntityArachne
     {
         int texture = this.getTextureNo() + 1;
 
-        this.setTextureNo(texture > 6 ? 0 : texture);
+        this.setTextureNo(texture > 13 ? 0 : texture);
     }
 
     @Override
