@@ -2,6 +2,8 @@ package com.mods.tameableArachneMod.entity;
 
 import com.mods.tameableArachneMod.TameableArachneCore;
 
+import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.EntityLivingBase;
@@ -30,6 +32,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.DamageSource;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class EntityHarpy extends EntityArachne
@@ -45,6 +48,22 @@ public class EntityHarpy extends EntityArachne
         super(world);
         this.setSize(0.3F, 1.5F);
         this.setTamed(false);
+    }
+
+    @Override
+    protected void playStepSound(BlockPos pos, Block blockIn)
+    {
+        SoundType soundtype = blockIn.getSoundType(world.getBlockState(pos), world, pos, this);
+
+        if (this.world.getBlockState(pos.up()).getBlock() == Blocks.SNOW_LAYER)
+        {
+            soundtype = Blocks.SNOW_LAYER.getSoundType();
+            this.playSound(soundtype.getStepSound(), soundtype.getVolume() * 0.15F, soundtype.getPitch());
+        }
+        else if (!blockIn.getDefaultState().getMaterial().isLiquid())
+        {
+            this.playSound(soundtype.getStepSound(), soundtype.getVolume() * 0.15F, soundtype.getPitch());
+        }
     }
 
     @Override
